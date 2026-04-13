@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.vscode/
+.idea/
+chromedriver.exe
+allure-results/
+allure-report/
+.DS_Store
+Thumbs.db
+.env
+venv/
