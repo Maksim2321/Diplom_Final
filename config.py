@@ -1,3 +1,8 @@
-BASE_URL = "https://www.kinopoisk.ru"
-API_URL = "https://api.kinopoisk.dev/v1.4"
-API_KEY = "PXVYNVH-SHF4BFD-GCGSJHW-CQ35SJG"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+BASE_URL: str = os.getenv("BASE_URL")
+API_URL: str = os.getenv("API_URL")
+API_KEY: str = os.getenv("API_KEY")

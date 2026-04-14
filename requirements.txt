@@ -3,3 +3,4 @@ requests
 pytest
 allure-pytest
 webdriver-manager
+python-dotenv
